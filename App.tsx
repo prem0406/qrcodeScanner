@@ -15,21 +15,6 @@ function App() {
     console.log('Permission granted! Proceed to the next step.');
   };
 
-  // useEffect(() => {
-  //   // Request Camera Permissions
-  //   const requestCameraPermission = async () => {
-  //     const status = await Camera.requestCameraPermission();
-  //     if (status !== 'granted') {
-  //       Alert.alert(
-  //         'Permission Required',
-  //         'Camera permission is required to scan QR codes.',
-  //       );
-  //     }
-  //   };
-
-  //   requestCameraPermission();
-  // }, []);
-
   const requestCameraPermission = async () => {
     try {
       const granted = await PermissionsAndroid.request(
