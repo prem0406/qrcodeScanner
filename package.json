@@ -12,6 +12,7 @@
     "pod-install": "cd ios && pod install && cd .."
   },
   "dependencies": {
+    "@react-navigation/core": "^7.3.1",
     "react": "18.3.1",
     "react-native": "0.76.5",
     "react-native-vision-camera": "^4.6.3"
